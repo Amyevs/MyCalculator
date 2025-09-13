@@ -17,6 +17,7 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+
         mathOperationTextView = findViewById(R.id.math_operation)
         resultTextView = findViewById(R.id.result_text)
 
